@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="PauloH">
+    <meta name="description" content="">
+    <meta name="keyframes" content="">
+  
+    <title>DOCUMENTO</title>
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
+
+    <!--scripts externos-->
+    <script src="https://kit.fontawesome.com/07787f54d4.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <header id="header">
+      <div class="container">
+        
+        <div class="logo">
+          <a class="logolink"href="#">ADN<span>CONSTRUÇÃO<a>
+        </div><!--logo-->
+
+          <!-- menu -->
+
+          <div class="menu_mobile">
+
+            <h2><i class="fas fa-bars"></i></h2>
+
+            <ul>
+              <li><a class="ativado" href="#home">Início</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#services">Serviços</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>  
+
+        <div class="menu">
+          <ul>
+            <li><a class="ativado" href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="clear"></div>
+
+      </div>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section class="banner" id="home">
+        <div class="formulario">
+          <h2>Envie Uma Mensagem</h2>
+          <p style="font-size: 13px; color: white;">*Preencha todos os campos!</p>
+          <form action="https://formspree.io/f/xqkwogzr" method="POST">
+            <div class="cem">
+              <p>Seu Nome: </p>
+              <input type="text" name="Nome" placeholder="Nome...">
+            </div>
+            <br>
+            <div class="cem">
+              <p>Seu E-mail: </p>
+              <input type="email" name="E-mail:" placeholder="Email...">
+            </div>
+             <br>
+            <div class="cem">
+              <p>Mensagem: </p>
+              <textarea name="Menssagem:" placeholder="Sua Mensagem..."></textarea>
+            </div>
+            <br>
+            <!-- your other form fields go here -->
+              <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="texto">
+        <div class="text">
+          <h2 class="title">CONSTRUIMOS E REFORMAMOS</h2>
+          <p>CONSTRUIMOS E REFORMAMOS DO BASICO AO ACABAMENTO.</p>
+        </div>
+      </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- ABOUT -->
+      <section class="banner2" id="about">
+          <div class="opacity"></div>
+          
+          <div class="container">
+            <div class="text">
+              <h2 class="title">Sobre Nós</h2>
+              <p>
+                Olá, Somos uma Empresa de Engenharia Focada em Projetos para Construção Civil em
+                Geral. Fale Conosco! Está Procurando uma Empresa de Engenharia Civil em
+                Goiás? Entre em Contato Agora! Equipe
+                Especializada Em Projetos De Qualidade.
+                Atendimento Via E-Mail ou Whatsapp.
+              </p>
+            </div>
+      
+          </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- SERVICES -->
+      <section class="servicos" id="services">
+        <h2>Serviços</h2>
+        <p>Um pouco de Nossos Serviços Prestados Com a Mais Alta Qualidade</p>
+
+        <div class="baner-wraper">
+          
+            <div class="content-img">
+              <i  style="color: white; font-size: 20px " class="fas fa-hammer"></i>
+              <span>Construções</span>
+              <i style="color: white;font-size: 20px" class="fas fa-hammer"></i>
+            </div>
+            <div class="content-img">
+              <i style="color: white;font-size: 20px" class="fas fa-faucet"></i>
+              <span>Encanamento</span>
+              <i  style="color: white;font-size: 20px"  class="fas fa-faucet"></i>
+            </div>
+            <div class="content-img">
+              <i  style="color: white;font-size: 20px"  class="fas fa-paint-roller"></i>
+              <span>Pintura</span>
+              <i  style="color: white;font-size: 20px"  class="fas fa-paint-roller"></i>
+            </div>
+        </div>
+        <div class="clear"></div>
+      </section>
+        
+
+      <div class="divider-1" style="margin-top: 100px;"></div>
+
+      <!-- CONTACT -->
+      <section class="contato" id="contact">
+        <div class="container">
+          <h2>Entre em Contato Conosco!</h2>
+          <p>
+            Entre em contato com a ADN CONSTRUÇÃO, queremos tirar suas
+            dúvidas, ouvir suas críticas e sugestões.
+          </p>
+          <div class="container grid">
+            <div class="text">
+              <a href="https://api.whatsapp.com/send?phone=+5562984118276&text=Oi! Gostaria de Fazer um orçamento" class="button" target="_blank"><i style="font-size: 25px; margin:0 8px;" class="fab fa-whatsapp"></i>  Entrar em contato<a>
+            </div
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <footer>
+        <div class="metade" style="border-left: 1ppx solid black;">
+          <a class="logo logo-alt" href="#home">©2021 ADN<span>CONSTRUÇÃO</span>.</a>
+          <p>©Todos os direitos reservados.</p>
+        </div>
+        <div class="metade">
+          <ul class="grid">
+            <li><i style="margin-right: 8px;" class="fas fa-phone-alt"></i>Telefone: (62)99218-4722</li>
+            <li><i style="margin-right: 8px;" class="fas fa-user-shield"></i>Propietário: Adonaldo Lino</li>
+            <li><i style="margin-right: 8px;" class="far fa-envelope"></i>E-mail: paulohh@gmail.com</li>
+          </ul>
+          <br>
+        </div>
+    </footer>
+
+    <a href="#home"><div class="pontinho">
+      <h2><i style="color: aquamarine;" class="fas fa-arrow-up"></i></h2>
+    </div></a>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script src="main.js"></script>
+
+    <script src="java-script/jquery.js"></script>
+    <script src="java-script/function.js"></script><script src="java-script/jquery.js"></script>
+
+  </body>
+</html>
